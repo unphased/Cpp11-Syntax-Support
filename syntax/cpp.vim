@@ -19,9 +19,9 @@ endif
 
 " Read the C syntax to start with
 if version < 600
-  so <sfile>:p:h/cpp11_cbase.vim
+  so <sfile>:p:h/c.vim
 else
-  runtime! syntax/cpp11_cbase.vim
+  runtime! syntax/c.vim
   unlet b:current_syntax
 endif
 
